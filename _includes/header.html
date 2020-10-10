@@ -1,0 +1,53 @@
+<div class="masthead bg-light">
+  <div class="container justify-content-left" style="width: 60rem;">
+
+
+    <h1 class="text-uppercase">{{ site.data.settings.header_logo }}</h1>
+    
+  </div>
+</div>
+
+
+<nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light ogzu-navbar-head">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarToggler" style="
+    max-width: 60rem;
+    margin: 0 auto;
+">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     
+
+      {% for menu-item in site.data.nav-menu %}
+
+      <li class="nav-item {{ menu-item.type }}">
+
+        <a class="nav-link" href="{{ site.url }}/{{ menu-item.link }}">{{ menu-item.name }}</a>
+
+      </li>
+
+
+
+      {% endfor %}
+
+
+    </ul>
+
+  </div>
+</nav>
+
+
+{% if page.img %}
+<div class="card w-100" style="height: 18rem;">
+<img src="{{ site.url }}/{{ page.img }}" class="block img-fluid card-img-top" alt="Responsive image" style="
+height: inherit;
+object-fit: cover;">
+</div>
+
+
+{% endif %}
+
+<div class="container-fluid ogzu-body-container my-4">

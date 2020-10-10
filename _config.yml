@@ -1,3 +1,10 @@
+#theme: jekyll-theme-cayman
+ 
+indexHeaderTitle: Senior Project
+
+my_info:
+  name: project name
+  description: Description
 
 sass:
   sass_dir: assets/css
@@ -10,4 +17,3 @@ plugins:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
- 
