@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+
+sass:
+  sass_dir: assets/css
+  
+permalink: /:year_:month_:day_:title
+
+plugins:
+  - jemoji
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+ 
