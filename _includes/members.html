@@ -1,8 +1,8 @@
-<div class="card-deck" id="one">
+<div class="row  row-cols-1 row-cols-md-3" id="one">
 
   {% for member in site.data.members_info %}
-
-  <div class="card">
+  <div class="col mb-4">
+  <div class="card  text-center w-100 h-100">
     <img src="{{ member.img }}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{ member.name }}</h5>
@@ -14,16 +14,7 @@
       <small class="text-muted"><i class="fas fa-link"></i></small>
     </div>
   </div>
-
+</div>
   {% endfor %}
-
-
-
-
-
-
-
-
-
 
 </div>

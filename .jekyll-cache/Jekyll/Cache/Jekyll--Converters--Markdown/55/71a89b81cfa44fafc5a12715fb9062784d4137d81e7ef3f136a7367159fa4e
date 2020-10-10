@@ -1,0 +1,69 @@
+I"
+<h2 id="description">Description</h2>
+
+<p>While driving, it is necessary to be careful about the situations that may come from the environment. Also, the correct coordination of the movement of the hands and feet, the dynamism of the eyes (the passing time of the eye closure) affects the driving while following other vehicles. Drivers who lack attention can be fatal to pedestrians. Even if there are minor accidents, it can cause harm to the user economically. Drowsy driving accounts for 10 to 30 percent of all accidents, according to data from Australia, 
+England, Finland,and other European countries. In addition, a certain amount of this percentage had fatal consequence.</p>
+
+<p>What should be done to prevent traffic accidents caused by driver drowsiness? To prevent this scenario from occurring, we need to monitor the driver’s driving activities by detecting whether s/he is drowsy. This type of system can be used to create some warning alarms to alert the driver or send a signal to family members, friends,etc.. In reality, it is difficult to detect driver drowsiness due to the power, color,or reflection of the lighting in the environment and the driver’s behavior such as speaking and yawning. This study aims to detect real-time driver drowsiness based on the face feature. This requires primarily the presence of the face and recognition of the driver’s eye for this study. It is used to measure how long the detected eye has been closed. According to a predetermined interval and their equivalents, drowsinesscan be recognized by measuring the total time the eye has been closed. In addition, by using the time while yawning or stretching, the drowsiness of thedriver can be defined according to the specified intervals.</p>
+
+<h2 id="team">Team</h2>
+
+<div class="row row-cols-md-3" id="one">
+
+  
+  <div class="col mb-4">
+  <div class="card  text-center h-100">
+    <img src="https://picsum.photos/200?random=1" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Gökçe Bekar</h5>
+      
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fas fa-link"></i></small>
+    </div>
+  </div>
+</div>
+  
+  <div class="col mb-4">
+  <div class="card  text-center h-100">
+    <img src="https://picsum.photos/200?random=2" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Oğuzhan Uğur Sarısakaloğlu</h5>
+      
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fas fa-link"></i></small>
+    </div>
+  </div>
+</div>
+  
+  <div class="col mb-4">
+  <div class="card  text-center h-100">
+    <img src="https://picsum.photos/200?random=3" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Rabia Esra Şendur</h5>
+      
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fas fa-link"></i></small>
+    </div>
+  </div>
+</div>
+  
+  <div class="col mb-4">
+  <div class="card  text-center h-100">
+    <img src="https://picsum.photos/200?random=4" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Rumeysa Omay</h5>
+      
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fas fa-link"></i></small>
+    </div>
+  </div>
+</div>
+  
+
+</div>
+
+:ET

@@ -2061,7 +2061,7 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 .container-fluid.ogzu-body-container { max-width: 60rem; }
 
-.masthead { background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); font-weight: 300; color: #cdbfe3; position: relative; padding: 2rem 1.25rem; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
+.masthead { background-image: linear-gradient(60deg, #00293a 0%, #506b7e 100%); font-weight: 300; color: #cdbfe3; position: relative; padding: 2rem 1.25rem; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
 
 .masthead h1 { color: #fff; font-weight: 400; font-size: 2rem; }
 
