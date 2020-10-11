@@ -1,2 +1,4 @@
 name,link,type
-Home,,active
+Home,/,active
+Reports,/reports,
+Team,/team,

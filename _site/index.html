@@ -11,7 +11,7 @@
 
     <link rel="icon" 
     type="image/png" 
-    href="http://localhost:4000/favicon.png">
+    href="http://localhost:4000/favicon.ico">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -27,10 +27,14 @@
 
 
   <div class="masthead bg-light">
-  <div class="container justify-content-left" style="width: 60rem;">
-
-
-    <h1 class="text-uppercase">Senior Project</h1>
+  <div class="container justify-content-left" style="max-width: 60rem;">
+   
+   
+   
+  <h1 class="text-uppercase" 
+  style="background-image: url('./assets/img/tedu_logo.png');background-repeat: no-repeat;background-size: 38px 100%;padding-left: 50px;"> 
+  
+  Project Name</h1>
     
   </div>
 </div>
@@ -53,7 +57,27 @@
 
       <li class="nav-item active">
 
-        <a class="nav-link" href="">Home</a>
+        <a class="nav-link" href="/">Home</a>
+
+      </li>
+
+
+
+      
+
+      <li class="nav-item ">
+
+        <a class="nav-link" href="/reports">Reports</a>
+
+      </li>
+
+
+
+      
+
+      <li class="nav-item ">
+
+        <a class="nav-link" href="/team">Team</a>
 
       </li>
 
@@ -79,73 +103,26 @@
 
     <main id="content" class="main-content" role="main">
 
-      <h2 id="description">Description</h2>
+      <!---
+
+A jumboton can easily attract attention.
+You can edit its attributes 
+
+--->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Driver Drowsiness Monitor</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+<h2 id="description">Description</h2>
 
 <p>While driving, it is necessary to be careful about the situations that may come from the environment. Also, the correct coordination of the movement of the hands and feet, the dynamism of the eyes (the passing time of the eye closure) affects the driving while following other vehicles. Drivers who lack attention can be fatal to pedestrians. Even if there are minor accidents, it can cause harm to the user economically. Drowsy driving accounts for 10 to 30 percent of all accidents, according to data from Australia, 
 England, Finland,and other European countries. In addition, a certain amount of this percentage had fatal consequence.</p>
 
 <p>What should be done to prevent traffic accidents caused by driver drowsiness? To prevent this scenario from occurring, we need to monitor the driver’s driving activities by detecting whether s/he is drowsy. This type of system can be used to create some warning alarms to alert the driver or send a signal to family members, friends,etc.. In reality, it is difficult to detect driver drowsiness due to the power, color,or reflection of the lighting in the environment and the driver’s behavior such as speaking and yawning. This study aims to detect real-time driver drowsiness based on the face feature. This requires primarily the presence of the face and recognition of the driver’s eye for this study. It is used to measure how long the detected eye has been closed. According to a predetermined interval and their equivalents, drowsinesscan be recognized by measuring the total time the eye has been closed. In addition, by using the time while yawning or stretching, the drowsiness of thedriver can be defined according to the specified intervals.</p>
-
-<h2 id="team">Team</h2>
-
-<div class="row  row-cols-1 row-cols-md-3" id="one">
-
-  
-  <div class="col mb-4">
-  <div class="card  text-center w-100 h-100">
-    <img src="https://picsum.photos/200?random=1" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Gökçe Bekar</h5>
-      
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><i class="fas fa-link"></i></small>
-    </div>
-  </div>
-</div>
-  
-  <div class="col mb-4">
-  <div class="card  text-center w-100 h-100">
-    <img src="https://picsum.photos/200?random=2" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Oğuzhan Uğur Sarısakaloğlu</h5>
-      
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><i class="fas fa-link"></i></small>
-    </div>
-  </div>
-</div>
-  
-  <div class="col mb-4">
-  <div class="card  text-center w-100 h-100">
-    <img src="https://picsum.photos/200?random=3" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Rabia Esra Şendur</h5>
-      
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><i class="fas fa-link"></i></small>
-    </div>
-  </div>
-</div>
-  
-  <div class="col mb-4">
-  <div class="card  text-center w-100 h-100">
-    <img src="https://picsum.photos/200?random=4" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Rumeysa Omay</h5>
-      
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><i class="fas fa-link"></i></small>
-    </div>
-  </div>
-</div>
-  
-
-</div>
-
 
 
 
@@ -160,7 +137,8 @@ England, Finland,and other European countries. In addition, a certain amount of 
   </div>
 
 <div
-  class="container-fluid ogzu-footer-container p-3 p-md-5 mt-5 text-center text-muted bg-light justify-content-center">
+  class="container-fluid ogzu-footer-container p-3 p-md-5 mt-5 text-center text-muted bg-light justify-content-center"
+  style="background-image: url('./assets/img/tedu_logo.png');background-repeat: no-repeat;background-size: auto 213%;background-position: center;">
 
   <p class="copyright font-weight-light">
     Senior Project © 2020
@@ -171,7 +149,19 @@ England, Finland,and other European countries. In addition, a certain amount of 
     
 
     <li class="nav-item">
-      <a class="nav-link active" href="">Home</a>
+      <a class="nav-link active" href="/">Home</a>
+    </li>
+    
+    
+
+    <li class="nav-item">
+      <a class="nav-link active" href="/reports">Reports</a>
+    </li>
+    
+    
+
+    <li class="nav-item">
+      <a class="nav-link active" href="/team">Team</a>
     </li>
     
     

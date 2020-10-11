@@ -2,19 +2,23 @@
 
   {% for member in site.data.members_info %}
   <div class="col mb-4">
-  <div class="card  text-center w-100 h-100">
-    <img src="{{ member.img }}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{ member.name }}</h5>
-      {% if member.description  %}
-      <p class="card-text">{{ member.description }}</p>
-      {% endif %}
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><i class="fas fa-link"></i></small>
+    <div class="card  text-center w-100 h-100">
+      <img src="{{ member.img }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ member.name }}</h5>
+        {% if member.description  %}
+        <p class="card-text">{{ member.description }}</p>
+        {% endif %}
+      </div>
+      <div class="card-footer">
+        <small class="info text-muted"></small>
+        <a href="#" class="text-info"><i class="fas fa-link"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-github"></i></a>
+
+      </div>
     </div>
   </div>
-</div>
   {% endfor %}
 
 </div>
