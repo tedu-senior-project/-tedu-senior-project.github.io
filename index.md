@@ -3,7 +3,7 @@ layout: index
 title: Home
 ---
 
-## Project Description
+## Description
 
 While driving, it is necessary to be careful about the situations that may come from the environment. Also, the correct coordination of the movement of the hands and feet, the dynamism of the eyes (the passing time of the eye closure) affects the driving while following other vehicles. Drivers who lack attention can be fatal to pedestrians. Even if there are minor accidents, it can cause harm to the user economically. Drowsy driving accounts for 10 to 30 percent of all accidents, according to data from Australia, 
 England, Finland,and other European countries. In addition, a certain amount of this percentage had fatal consequence.
