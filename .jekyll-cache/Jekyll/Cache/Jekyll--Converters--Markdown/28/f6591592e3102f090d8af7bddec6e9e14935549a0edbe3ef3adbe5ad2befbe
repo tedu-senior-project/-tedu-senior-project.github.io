@@ -1,0 +1,77 @@
+I"�	<h1 id="team">Team</h1>
+
+<div class="row  row-cols-1 row-cols-md-3" id="one">
+
+  
+  <div class="col mb-4">
+    <div class="card  text-center w-100 h-100">
+      <img src="https://picsum.photos/200?random=1" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Gökçe Bekar</h5>
+        
+      </div>
+      <div class="card-footer">
+        <small class="info text-muted"></small>
+        <a href="#" class="text-info"><i class="fas fa-link"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-github"></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mb-4">
+    <div class="card  text-center w-100 h-100">
+      <img src="https://picsum.photos/200?random=2" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Oğuzhan Uğur Sarısakaloğlu</h5>
+        
+      </div>
+      <div class="card-footer">
+        <small class="info text-muted"></small>
+        <a href="#" class="text-info"><i class="fas fa-link"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-github"></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mb-4">
+    <div class="card  text-center w-100 h-100">
+      <img src="https://picsum.photos/200?random=3" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Rabia Esra Şendur</h5>
+        
+      </div>
+      <div class="card-footer">
+        <small class="info text-muted"></small>
+        <a href="#" class="text-info"><i class="fas fa-link"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-github"></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mb-4">
+    <div class="card  text-center w-100 h-100">
+      <img src="https://picsum.photos/200?random=4" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Rumeysa Omay</h5>
+        
+      </div>
+      <div class="card-footer">
+        <small class="info text-muted"></small>
+        <a href="#" class="text-info"><i class="fas fa-link"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-info"><i class="fab fa-github"></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+
+:ET

@@ -1,0 +1,25 @@
+I"Ú<h1 id="reports">Reports</h1>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Report</th>
+        <th scope="col">Date</th>
+        <th scope="col">Download Link</th>
+      </tr>
+    </thead>
+    <tbody>        
+        
+      <tr>
+        <th scope="row">1</th>
+        <td>Project Proposal</td>
+        <td>12.10.2020</td>
+        <td></td>
+      </tr>
+      
+
+    </tbody>
+  </table>
+
+:ET

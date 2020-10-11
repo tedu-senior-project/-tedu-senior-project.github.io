@@ -1,0 +1,24 @@
+
+
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Report</th>
+        <th scope="col">Date</th>
+        <th scope="col">Download Link</th>
+      </tr>
+    </thead>
+    <tbody>        
+        {% for report in site.data.reports %}
+      <tr>
+        <th scope="row">1</th>
+        <td>{{ report.Name }}</td>
+        <td>{{ report.Date }}</td>
+        <td><a href="{{ report.DownloadLink }}">link</a> </td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+  
