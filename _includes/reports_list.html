@@ -12,7 +12,7 @@
     <tbody>        
         {% for report in site.data.reports %}
       <tr>
-        <th scope="row">1</th>
+        <th scope="row">{{ report.Id }}</th>
         <td>{{ report.Name }}</td>
         <td>{{ report.Date }}</td>
         <td><a href="{{ report.DownloadLink }}">link</a> </td>
