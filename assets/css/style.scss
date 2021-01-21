@@ -367,3 +367,6 @@ pre {
     overflow-x: auto;
     word-wrap: normal;
 }
+table {
+    @extend .table;
+  } 
