@@ -6,6 +6,7 @@ title: Backlogs
 
 # Backlogs
 
+{{< bootstrap-table "table table-dark table-striped table-bordered" >}}
 | Task Name                                    | Category       | Priority | Status      |
 | -------------------------------------------- | -------------- | -------- | ----------- |
 | **Sprint1**                                  |
@@ -116,3 +117,5 @@ title: Backlogs
 | Research on anomaly detection                | Research       | High     | In progress |
 | **Demo**                                     |
 | Deciding demo video for presentation         | Decision       | High     | In progress |
+
+{{< /bootstrap-table >}}
