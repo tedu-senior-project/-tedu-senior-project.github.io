@@ -4,10 +4,9 @@ title: Backlogs
 ---
 
 
-# Backlog
+# Backlogs
 
-<table class="table">
-
+{{< bootstrap-table "table table-dark table-striped table-bordered" >}}
 | Task Name                                    | Category       | Priority | Status      |
 | -------------------------------------------- | -------------- | -------- | ----------- |
 | **Sprint1**                                  |
@@ -119,4 +118,4 @@ title: Backlogs
 | **Demo**                                     |
 | Deciding demo video for presentation         | Decision       | High     | In progress |
 
-</table>
+{{< /bootstrap-table >}}
