@@ -6,9 +6,7 @@ title: Backlogs
 
 # Backlogs
 
-<table class="table">
-
-| Task Name                                    | Category       | Priority | Status      |
+<table class="table">| Task Name                                    | Category       | Priority | Status      |
 | -------------------------------------------- | -------------- | -------- | ----------- |
 | **Sprint1**                                  |
 | **Dataset**                                  |
