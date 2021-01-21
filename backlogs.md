@@ -117,4 +117,5 @@ title: Backlogs
 | Research on anomaly detection                | Research       | High     | In progress |
 | **Demo**                                     |
 | Deciding demo video for presentation         | Decision       | High     | In progress |
+
 </table>
