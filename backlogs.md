@@ -4,10 +4,9 @@ title: Backlogs
 ---
 
 
-# Backlogs
+# Backlog
 
 <table class="table">
-
 | Task Name                                    | Category       | Priority | Status      |
 | -------------------------------------------- | -------------- | -------- | ----------- |
 | **Sprint1**                                  |
