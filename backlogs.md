@@ -20,7 +20,6 @@ title: Backlogs
   </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
   
-  <br>
 
   {% include 491backlog.html %}
 
