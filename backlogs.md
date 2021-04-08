@@ -12,7 +12,12 @@ title: Backlogs
   </li>
   
 </ul>
-<div class="tab-content" id="myTabContent">
+<div class="tab-content" id="myTabContent"> 
+<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+    {% include 492sprint2.html %}
+
+  </div>
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
     {% include 492sprint1.html %}
