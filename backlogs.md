@@ -5,7 +5,7 @@ title: Backlogs
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home2" aria-selected="true">SPRINT 2 (Latest) </a>
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home2" aria-selected="true">SPRINT 2 (Latest) </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">SPRINT 1 (Latest) </a>
