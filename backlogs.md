@@ -8,7 +8,7 @@ title: Backlogs
     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home2" aria-selected="true">SPRINT 2 (Latest) </a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">SPRINT 1 (Latest) </a>
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">SPRINT 1 </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">CMPE 491</a>
