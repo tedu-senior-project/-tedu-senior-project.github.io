@@ -21,7 +21,7 @@ title: Backlogs
     {% include 492sprint2.html %}
 
   </div>
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
 
     {% include 492sprint1.html %}
 
